@@ -3,7 +3,6 @@ name: DevOps & Linux Job Crawler Cron
 on:
   schedule:
     - cron: '0 */2 * * *'
-  workflow_jobs:
   workflow_dispatch:
 
 jobs:
